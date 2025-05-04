@@ -93,7 +93,7 @@ SECONDARY_MODELS = {
 }
 
 # Load environment variables
-GEMINI_API_KEY = "AIzaSyCvIYk-t12YmJoa6bF69GTEHLojOId_fqA"
+GEMINI_API_KEY = ""
 if not GEMINI_API_KEY:
     raise ValueError("GEMINI_API_KEY not found in environment variables")
 
